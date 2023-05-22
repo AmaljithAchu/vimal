@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right,rgb(187, 13, 7),rgb(241, 49, 209));
+}
+div{
+    margin-left: 35%;
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    width: 400px;
+    border-radius: 4%;
+
+}
+form{
+    padding-right: 30%;
+}

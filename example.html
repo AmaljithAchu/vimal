@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+    <style>
+        
+.button {
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+    </style>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body><br><br>
+    <div>
+    <table>
+        <form action="" method="POST" enctype="multipart/form-data" style="background-color: aliceblue;">
+            <tbody><br>
+                <thead><h1><center>REGISTRATION FORM</center></h1></thead>
+                
+                <tr><td><label for="">First Name</label></td>
+                    <td><label for="">Last Name</label></td>
+                </tr>
+            
+                <tr>
+                    <td><input type="text" name="fname" class="" id="fname" value="vimal"></td>
+                    <td><input type="text" name="lname" class="" id="lname" value="vinod"></td>
+                </tr>
+               
+                <tr><td><br><label for="">birthday</label><br></td>
+                    <td><br><label for="">Gender</label></td>
+                 </tr>
+                   
+                 <tr>
+                    <td><input type="date" name="dob" class="" id="dob" ></td>
+                    <td><input type="radio" id="male" name="gender" value="MALE">
+                        <label for="">MALE</label>                            
+                        <input type="radio" id="female" name="gender" value="FEMALE">
+                        <label for="">FEMALE</label>
+                    </td>
+
+                 </tr>
+                    <tr>
+                    <td><br><label for="">E-mail</label></td>
+                    <td><br><label for="">Phone Number</label></td>
+
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" class="" id="email" placeholder="example123@gamil.com"></td>   
+
+                    <td><input type="number" name="phno" class="" id="phno" placeholder="9847816122"></td> 
+
+                </tr>
+                 <tr>
+                    <td colspan="100">&nbsp;<br><label for="">Subject</label></td>
+                 </tr>
+                 <tr>
+                    <td colspan="2">
+                        <select name="sub" id="sub">
+                            <option value="">choose options</option>
+                            <option value="1">subject 1</option>
+                            <option value="2">subject 2</option>
+                            <option value="3">subject 3</option>
+                        </select>
+                    </td>
+                 </tr>
+                    
+                <tr>
+                    <td><br>
+                        <button class="button button1" value="submit">Submit</button>
+                     </td>
+                 </tr>
+                 <tr>
+                    <td></td>
+                 </tr>
+            </tbody>
+        </form>
+    </table>
+</div>
+</body>
+</html>
